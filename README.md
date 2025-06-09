@@ -20,7 +20,11 @@ Tailwind CSS for responsive and utility-first UI design
 MySQL for storing and managing user and stock data
 Axios for handling API requests to fetch market data and news
 Node.js and Express.js for building the backend server and REST APIs
-React.js for creating a dynamic and modular frontend interface Screenshot 2025-06-09 143116
+React.js for creating a dynamic and modular frontend interface 
+![Screenshot 2025-06-09 185937](https://github.com/user-attachments/assets/cb5f7b33-1c60-4344-a92d-4462f59cfcee)
+![Screenshot 2025-06-09 192651](https://github.com/user-attachments/assets/82a0dff5-a210-49c0-8d56-95c4c07add24)
+
+
 
 
 
