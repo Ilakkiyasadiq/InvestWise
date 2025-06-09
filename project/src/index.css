@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-20 backdrop-filter backdrop-blur-glass border border-white border-opacity-20 shadow-glass;
+  }
+  
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 
+    focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 
+    transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-secondary-100 text-secondary-700 rounded-lg font-medium 
+    hover:bg-secondary-200 focus:outline-none focus:ring-2 focus:ring-secondary-500 
+    focus:ring-offset-2 transition-colors duration-200;
+  }
+  
+  .input-field {
+    @apply block w-full px-3 py-2 bg-white border border-secondary-300 rounded-lg 
+    shadow-sm focus:ring-2 focus:ring-primary-500 focus:border-primary-500 
+    transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .card-hover {
+    @apply hover:scale-105 transition-transform duration-200;
+  }
+  
+  .nav-link {
+    @apply px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200;
+  }
+  
+  .nav-link-active {
+    @apply bg-primary-600 text-white;
+  }
+  
+  .nav-link-inactive {
+    @apply text-secondary-700 hover:bg-primary-50;
+  }
+  
+  .section-title {
+    @apply text-2xl font-bold text-secondary-900 mb-6;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-blue-600;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-r from-primary-600 to-blue-600;
+  }
+}
