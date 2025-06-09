@@ -1,43 +1,46 @@
-# 💹 InvestWise – Full-Stack Investment & Stock Trading Platform
 
-**InvestWise** is a dynamic full-stack web application that simulates real-world stock trading, enabling users to buy/sell stocks, track market trends in real-time, and manage their investment portfolio. Designed with scalability and user experience in mind, InvestWise is built using **React.js**, **Node.js**, **Express.js**, **MySQL**, and **Tailwind CSS**.
+# 💹 STOCK MATE – Full-Stack Stock Trading Simulator
+
+**STOCK MATE** is an interactive full-stack web application that allows users to simulate stock transactions with real-time market updates. It offers an engaging platform to buy/sell stocks, monitor Sensex and Nifty indices, and manage personalized investment portfolios. Built with modern technologies for scalability and performance, STOCK MATE is crafted using **TypeScript**, **Tailwind CSS**, **Node.js**, **Express.js**, and **MySQL**.
 
 ---
 
 ## 🚀 Features
 
-- 📈 **Live Market Dashboard** – Real-time tracking of Sensex & Nifty indices with graph visualizations.
-- 💰 **Buy/Sell Stocks** – Simulate stock trades with instant portfolio updates.
-- 👤 **User Portfolio Management** – Track your owned stocks and investment performance.
-- 📊 **Admin Analytics Panel** – View user statistics and overall trading insights.
-- 💳 **Mock Payment Gateway** – Simulated bank transfer & UPI options.
-- 📱 **Responsive UI** – Seamlessly accessible across devices using Tailwind CSS.
+* 📈 **Live Market Updates** – Real-time Sensex & Nifty indices with dynamic charts.
+* 💸 **Stock Transactions** – Seamless buy/sell simulation with portfolio updates.
+* 🧮 **Stock Calculator** – Helps users make informed investment decisions.
+* 👤 **Portfolio Management** – View and track stock holdings and performance.
+* 🔐 **User Authentication** – Secure login/signup and personalized data handling.
+* 📱 **Responsive Design** – Optimized UI for desktop and mobile using Tailwind CSS.
 
 ---
 
 ## 🛠 Tech Stack
 
-| Frontend  | Backend      | Database | Styling       | Others            |
-|-----------|--------------|----------|----------------|-------------------|
-| React.js  | Node.js      | MySQL    | Tailwind CSS   | Express.js, Axios, Chart.js |
+| Frontend   | Backend | Database | Styling      | Others               |
+| ---------- | ------- | -------- | ------------ | -------------------- |
+| TypeScript | Node.js | MySQL    | Tailwind CSS | Express.js, Chart.js |
 
 ---
 
 ## 🎯 Project Objectives
 
-- Demonstrate end-to-end full-stack development capabilities in a FinTech simulation.
-- Implement secure and responsive user interfaces for a seamless trading experience.
-- Provide real-time market data using mock APIs and state management.
+* Build a robust full-stack stock trading simulator with realistic features.
+* Provide live market data visualization with interactive charts.
+* Implement secure user management and transaction handling.
+* Deliver a responsive and intuitive user experience across devices.
 
 ---
 
 ## 📸 Screenshots
 
-> Add screenshots or demo GIFs here showing:
-> - Home / Dashboard
-> - Buy/Sell Interface
-> - Portfolio View
-> - Admin Panel
+> Add screenshots or demo GIFs here illustrating:
+>
+> * Home page with market indices
+> * Buy/Sell stock interface
+> * Portfolio overview
+> * Stock calculator tool
 
 ---
 
@@ -45,14 +48,49 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/investwise.git
+git clone https://github.com/your-username/stock-mate.git
+cd stock-mate
 
-# Frontend
-cd investwise/frontend
+# Backend setup
+cd backend
 npm install
-npm start
-
-# Backend
-cd ../backend
-npm install
+# Create a `.env` file with your database credentials:
+# DB_HOST=localhost
+# DB_USER=root
+# DB_PASSWORD=yourpassword
+# DB_NAME=stockmate_db
 node server.js
+
+# In a new terminal, setup frontend
+cd ../frontend
+npm install
+npm run dev
+```
+
+* Backend server default URL: `http://localhost:5000`
+* Frontend app default URL: `http://localhost:3000`
+
+---
+
+## ⚙️ Configuration
+
+* Setup and configure your MySQL database.
+* Run any migration or seed scripts to initialize database tables and sample data.
+* Adjust API endpoint URLs in frontend config if necessary.
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature requests are welcome!
+Please open issues or submit pull requests via GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+
